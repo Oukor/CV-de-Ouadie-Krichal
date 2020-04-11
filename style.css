@@ -1,0 +1,176 @@
+/*1.MISE EN PAGE*/
+
+body{
+    display: flex;
+	font-family: "Roboto", sans-serif;
+}
+
+.container{
+	border: 1px solid grey;
+    margin: auto;
+    max-width: 950px;
+}
+
+.aside{
+    background-color: #FFD600;
+}
+
+/*.HEADER.*/
+
+.cadre_photo{
+	background-color: #FFD600;
+    align-items: center;
+    width: 80%;
+    padding: none;
+}
+.photo{
+    
+    max-width:220px;
+    border: 2px solid #feb007d3;
+    border-radius: 50%;
+    margin: 20px 20px 30px 30px;
+}
+
+/*.TITRES.*/
+
+.titre_aside{
+    margin: 10px 0px 10px 20px;
+    color: #FFD600;
+    background-color: #FFAB00;
+}
+    
+h1{
+    font-size:3.5em;
+    margin-top:70px;
+    margin-left: 10px;
+    margin-bottom:2px;
+    font-weight: 200;
+}
+span{
+    color: #FFD600;
+    font-weight: normal;
+}
+h2{
+    font-size: 1.3em; 
+    margin-top:0;
+    margin-left: 10px;
+    margin-bottom:0px;
+    font-weight: 400;
+}
+hr{
+    margin-top: 0px;
+    border: 1px solid #FFD600;
+}
+h2 + hr{
+    border: 1px solid #FFD600;
+    width: 10%;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 1.5em;
+    text-align: justify;
+    margin-top: 30px; 
+
+    
+}
+h4{
+    font-size: 1.2em;
+    color: #263238
+}
+h5{
+    text-align: center;
+    background-color: #263238;
+    flex-grow: 1;
+    font-size: 1.4em;
+    color: #FFD600;
+}
+
+p{
+    font-size: 1em;
+    color: #37474F;
+}
+
+/*.ICONS.*/
+
+
+i[class*="music"] {
+    color: #263238;
+    font-size: 2.1em;
+    margin: 20px;
+}
+
+i[class*="laptop"] {
+    color: #263238;
+    font-size: 2.1em;
+    margin: 20px;
+}
+i[class*="campground"] {
+    color: #263238;
+    font-size: 2.1em;
+    margin: 20px;
+}
+
+i[class*="graduation"] {
+    color: #FFD600;
+    margin-right: 15px;
+}
+
+i[class*="briefcase"] {
+    color: #FFD600;
+    margin-right: 15px;
+}
+
+i[class*="pencil"] {
+    color: #FFD600;
+    margin-right: 15px;
+}
+
+i[class*="dot"] {
+    color: #FFD600;
+    margin-right: 10px;
+    font-size: 0.7em;
+}
+
+i[class*="circle"] {
+    color: #FFD600;
+    margin-right: 10px;
+    font-size: 0.7em;
+}
+
+
+/*.ALIGNEMENTS DES TEXTES.*/
+
+hr {
+    margin-bottom: 40px;
+}
+
+address {
+    padding: 10px 0px 10px 20px;
+}
+
+.descriptif {
+    text-align: justify;
+    padding: 20px 10px 100px 10px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.section3 {
+    text-align: center;
+}
+
+/*.RESPONSIVE DESIGN.*/
+
+@media (max-width: 768px) {
+    .cadre_photo{
+    background-color: white;
+
+    }
+    .photo{
+    margin: 80px 0px 0px 120px;
+    }
+}
+
